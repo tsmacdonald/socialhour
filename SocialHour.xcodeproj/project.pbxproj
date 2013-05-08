@@ -18,6 +18,8 @@
 		97115984173A915A003B5A79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97115983173A915A003B5A79 /* Default-568h@2x.png */; };
 		97115987173A915A003B5A79 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97115985173A915A003B5A79 /* MainStoryboard.storyboard */; };
 		9711598A173A915A003B5A79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97115989173A915A003B5A79 /* ViewController.m */; };
+		979FFC25173A92FB00C1BAC0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979FFC24173A92FB00C1BAC0 /* Social.framework */; };
+		979FFC27173AA73500C1BAC0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979FFC26173AA73500C1BAC0 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		97115986173A915A003B5A79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		97115988173A915A003B5A79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		97115989173A915A003B5A79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		979FFC24173A92FB00C1BAC0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		979FFC26173AA73500C1BAC0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979FFC27173AA73500C1BAC0 /* Accounts.framework in Frameworks */,
+				979FFC25173A92FB00C1BAC0 /* Social.framework in Frameworks */,
 				9711596E173A915A003B5A79 /* UIKit.framework in Frameworks */,
 				97115970173A915A003B5A79 /* Foundation.framework in Frameworks */,
 				97115972173A915A003B5A79 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,8 @@
 		97115961173A915A003B5A79 = {
 			isa = PBXGroup;
 			children = (
+				979FFC26173AA73500C1BAC0 /* Accounts.framework */,
+				979FFC24173A92FB00C1BAC0 /* Social.framework */,
 				97115973173A915A003B5A79 /* SocialHour */,
 				9711596C173A915A003B5A79 /* Frameworks */,
 				9711596B173A915A003B5A79 /* Products */,
@@ -298,6 +306,7 @@
 				9711598F173A915A003B5A79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
