@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9711596E173A915A003B5A79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9711596D173A915A003B5A79 /* UIKit.framework */; };
+		97115970173A915A003B5A79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9711596F173A915A003B5A79 /* Foundation.framework */; };
+		97115972173A915A003B5A79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97115971173A915A003B5A79 /* CoreGraphics.framework */; };
+		97115978173A915A003B5A79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97115976173A915A003B5A79 /* InfoPlist.strings */; };
+		9711597A173A915A003B5A79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97115979173A915A003B5A79 /* main.m */; };
+		9711597E173A915A003B5A79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9711597D173A915A003B5A79 /* AppDelegate.m */; };
+		97115980173A915A003B5A79 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9711597F173A915A003B5A79 /* Default.png */; };
+		97115982173A915A003B5A79 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97115981173A915A003B5A79 /* Default@2x.png */; };
+		97115984173A915A003B5A79 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97115983173A915A003B5A79 /* Default-568h@2x.png */; };
+		97115987173A915A003B5A79 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97115985173A915A003B5A79 /* MainStoryboard.storyboard */; };
+		9711598A173A915A003B5A79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97115989173A915A003B5A79 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9711596A173A915A003B5A79 /* SocialHour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialHour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9711596D173A915A003B5A79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9711596F173A915A003B5A79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		97115971173A915A003B5A79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		97115975173A915A003B5A79 /* SocialHour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialHour-Info.plist"; sourceTree = "<group>"; };
+		97115977173A915A003B5A79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97115979173A915A003B5A79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9711597B173A915A003B5A79 /* SocialHour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocialHour-Prefix.pch"; sourceTree = "<group>"; };
+		9711597C173A915A003B5A79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9711597D173A915A003B5A79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9711597F173A915A003B5A79 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		97115981173A915A003B5A79 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		97115983173A915A003B5A79 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		97115986173A915A003B5A79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		97115988173A915A003B5A79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97115989173A915A003B5A79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97115967173A915A003B5A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9711596E173A915A003B5A79 /* UIKit.framework in Frameworks */,
+				97115970173A915A003B5A79 /* Foundation.framework in Frameworks */,
+				97115972173A915A003B5A79 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97115961173A915A003B5A79 = {
+			isa = PBXGroup;
+			children = (
+				97115973173A915A003B5A79 /* SocialHour */,
+				9711596C173A915A003B5A79 /* Frameworks */,
+				9711596B173A915A003B5A79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9711596B173A915A003B5A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9711596A173A915A003B5A79 /* SocialHour.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9711596C173A915A003B5A79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9711596D173A915A003B5A79 /* UIKit.framework */,
+				9711596F173A915A003B5A79 /* Foundation.framework */,
+				97115971173A915A003B5A79 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97115973173A915A003B5A79 /* SocialHour */ = {
+			isa = PBXGroup;
+			children = (
+				9711597C173A915A003B5A79 /* AppDelegate.h */,
+				9711597D173A915A003B5A79 /* AppDelegate.m */,
+				97115985173A915A003B5A79 /* MainStoryboard.storyboard */,
+				97115988173A915A003B5A79 /* ViewController.h */,
+				97115989173A915A003B5A79 /* ViewController.m */,
+				97115974173A915A003B5A79 /* Supporting Files */,
+			);
+			path = SocialHour;
+			sourceTree = "<group>";
+		};
+		97115974173A915A003B5A79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97115975173A915A003B5A79 /* SocialHour-Info.plist */,
+				97115976173A915A003B5A79 /* InfoPlist.strings */,
+				97115979173A915A003B5A79 /* main.m */,
+				9711597B173A915A003B5A79 /* SocialHour-Prefix.pch */,
+				9711597F173A915A003B5A79 /* Default.png */,
+				97115981173A915A003B5A79 /* Default@2x.png */,
+				97115983173A915A003B5A79 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97115969173A915A003B5A79 /* SocialHour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9711598D173A915A003B5A79 /* Build configuration list for PBXNativeTarget "SocialHour" */;
+			buildPhases = (
+				97115966173A915A003B5A79 /* Sources */,
+				97115967173A915A003B5A79 /* Frameworks */,
+				97115968173A915A003B5A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialHour;
+			productName = SocialHour;
+			productReference = 9711596A173A915A003B5A79 /* SocialHour.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97115962173A915A003B5A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tim Macdonald";
+			};
+			buildConfigurationList = 97115965173A915A003B5A79 /* Build configuration list for PBXProject "SocialHour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 97115961173A915A003B5A79;
+			productRefGroup = 9711596B173A915A003B5A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97115969173A915A003B5A79 /* SocialHour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97115968173A915A003B5A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97115978173A915A003B5A79 /* InfoPlist.strings in Resources */,
+				97115980173A915A003B5A79 /* Default.png in Resources */,
+				97115982173A915A003B5A79 /* Default@2x.png in Resources */,
+				97115984173A915A003B5A79 /* Default-568h@2x.png in Resources */,
+				97115987173A915A003B5A79 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97115966173A915A003B5A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9711597A173A915A003B5A79 /* main.m in Sources */,
+				9711597E173A915A003B5A79 /* AppDelegate.m in Sources */,
+				9711598A173A915A003B5A79 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97115976173A915A003B5A79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97115977173A915A003B5A79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		97115985173A915A003B5A79 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97115986173A915A003B5A79 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9711598B173A915A003B5A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9711598C173A915A003B5A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9711598E173A915A003B5A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialHour/SocialHour-Prefix.pch";
+				INFOPLIST_FILE = "SocialHour/SocialHour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9711598F173A915A003B5A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocialHour/SocialHour-Prefix.pch";
+				INFOPLIST_FILE = "SocialHour/SocialHour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97115965173A915A003B5A79 /* Build configuration list for PBXProject "SocialHour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9711598B173A915A003B5A79 /* Debug */,
+				9711598C173A915A003B5A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9711598D173A915A003B5A79 /* Build configuration list for PBXNativeTarget "SocialHour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9711598E173A915A003B5A79 /* Debug */,
+				9711598F173A915A003B5A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97115962173A915A003B5A79 /* Project object */;
+}
